@@ -1,0 +1,15 @@
+// fonts
+$Kurale: "Kurale", serif;
+$OS: "Open Sans", sans-serif;
+//----------
+//reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+//-------------
+body {
+  font-family: $OS;
+  background-color: black;
+}
