@@ -16,37 +16,67 @@
     <!--  -->
   </head>
   <body>
-    sasay coodasay
-    <a href="#">
-      <svg>
-        <use xlink:href="./img/sprite-icons.svg#facebook"></use>>
-      </svg>
-    </a>
-    <a href="#">
-      <svg>
-        <use xlink:href="./img/sprite-icons.svg#twitter"></use>>
-      </svg>
-    </a>
-    <a href="#">
-      <svg>
-        <use xlink:href="./img/sprite-icons.svg#arrow-down"></use>>
-      </svg>
-    </a>
-    <a href="#">
-      <svg>
-        <use xlink:href="./img/sprite-icons.svg#maps"></use>>
-      </svg>
-    </a>
-    <a href="#">
-      <svg>
-        <use xlink:href="./img/sprite-icons.svg#phone"></use>>
-      </svg>
-    </a>
-    <a href="#">
-      <svg>
-        <use xlink:href="./img/sprite-icons.svg#email"></use>>
-      </svg>
-    </a>
+    <!-- wrapper -->
+    <div class="wrapper">
+      <section class="home">
+        <img class="home__image" src="./img/dish.jpg" alt="background image" />
+        <div class="home__container">
+          <div class="container">
+            <nav class="top-menu">
+              <ul class="top-menu__list">
+                <li class="top-menu__item"><a href="#about">О РЕСТОРАНЕ</a></li>
+                <li class="top-menu__item"><a href="#team">КОМАНДА</a></li>
+                <li class="top-menu__item"><a href="#order">ЗАКАЗАТЬ</a></li>
+                <li class="logo"><img src="./img/logo.png" alt="Логотип" /></li>
+                <li class="top-menu__item"><a href="#menu">МЕНЮ</a></li>
+                <li class="top-menu__item">
+                  <a href="#events">МЕРОПРИЯТИЯ</a>
+                </li>
+                <li class="top-menu__item"><a href="#contacts">КОНТАКТЫ</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="container home__container-center">
+            <div class="time-work">Пн - Пт: 8 - 22, Сб - Вс: 9 - 24</div>
+            <div class="home-text">
+              <h6>РЕСТОРАН</h6>
+              <h1>GOLDEN EGG</h1>
+              <div class="home__btns">
+                <a href="#order" class="btn-order">ЗАКАЗАТЬ СТОЛИК</a>
+                <a href="#about">О РЕСТОРАНЕ</a>
+              </div>
+              <a href="#about" class="arrow__about"> 
+                <svg>
+                  <use xlink:href="./img/sprite-icons.svg#arrow-down">
+                  </use>
+                </svg>
+              </a>
+            </div>
+            <div class="socials">
+              <a href="#" target="_blank">
+                <svg>
+                  <use xlink:href="./img/sprite-icons.svg#facebook">
+                  </use>
+                </svg>
+              </a>
+              <a href="#" target="_blank">
+                <svg>
+                  <use xlink:href="./img/sprite-icons.svg#twitter">
+                  </use>
+                </svg>
+              </a>
+              <a href="#" target="_blank">
+                <svg>
+                  <use xlink:href="./img/sprite-icons.svg#instagramm">
+                  </use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- end of wrapper -->
     <script src="js/swiper.min.js"></script>
   </body>
 </html>
